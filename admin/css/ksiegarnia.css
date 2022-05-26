@@ -1,0 +1,306 @@
+body
+{
+	background-color: #99FFFF;
+}
+
+header
+{
+	background-image: url(../images/tlo1.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 100% 220px;
+	height: 220px;
+	text-align: center;
+	margin-bottom: 6px;
+	border-radius: 40px;
+	box-shadow: 0px 0px 8px black;
+}
+
+h1
+{
+	line-height: 220px;
+	font-size:60px;
+	font-family: Tahoma;
+	font-weight: bold;
+	font-style: italic;
+	color: gold;
+	text-shadow: 0px 0px 20px black;
+}
+
+nav
+{
+	background-color: #555555;
+	min-height: 45px;
+	padding: 18px;
+	margin-bottom: 6px;
+	border-radius: 40px;
+  	display: flex;
+  	align-items: center;
+	box-shadow: 0px 0px 8px black;
+}
+
+aside
+{
+	float: left;
+	background-color: #336699;
+	min-height: 530px;
+	border-radius: 40px;
+	width: 18%;
+	margin-right: 6px;
+	position: relative;
+	box-shadow: 0px 0px 8px black;
+}
+
+main
+{
+	float: left;
+	background-color: teal;
+	min-height: 470px;
+	border-radius: 40px;
+	width: calc(82% - 66px);
+	margin-bottom: 6px;
+	box-shadow: 0px 0px 8px black;
+	padding: 30px;
+}
+
+#przyciski{
+	margin: auto;
+}
+
+.buttons
+{
+	width: 130px;
+	cursor: pointer;
+	text-align: center;
+	height: 35px;
+	margin-right: 10px;
+	margin-left: 10px;
+	color: white;
+	background-color: #555555;
+	border: none;
+	font-family: Verdana;
+	font-weight: bold;
+}
+
+.buttons:hover
+{
+	background-color: #999999;
+	box-shadow: 0px 0px 8px #999999;
+}
+
+#search{
+	top: 10%;
+	height: 30px;
+	border-color: whitesmoke;
+	border-width: 3px;
+	border-style: solid;
+	width: 86%;
+	position: absolute;
+	left: 50%;                   
+    transform: translate(-50%, 0);
+}
+
+#szukaj{
+	font-size: max(1vw, 11px);
+	background-color:#336699;
+	height: inherit;
+	text-indent: 8px;
+	color: silver;
+	border-style: none;
+	width: 68%;
+	float: left;
+}
+
+::placeholder
+{
+	color: #FFFFCC;
+}
+
+#sicon{
+	height: 30px;
+	width: 14%;
+	float: left;
+}
+
+#wyloguj
+{
+	background-image: url(../images/logout.png);
+	background-position: center;
+	width: 35px;
+	height: 35px;
+	margin-left: 10px;
+	cursor: pointer;
+}
+
+#wyloguj:hover
+{
+	box-shadow: 0px 0px 20px red;
+}
+
+#welcome
+{
+	position: relative;
+}
+
+#te
+{
+	clear: both;
+	text-align: center;
+	color: white;
+	font-family: Georgia;
+	font-style: italic;
+}
+
+#admin
+{
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#aside_btns
+{
+	position: absolute;
+	top: 28%;
+	left: 50%;                   
+    transform: translate(-50%, 0);
+    width: 100%;
+}
+
+#clear
+{
+	background-image: url(../images/clear.png);
+	background-repeat: no-repeat;
+	background-position: center;
+    width: 18%;
+    height: 100%;
+	border: none;
+	opacity: 0%;
+	background-color: #336699;
+	background-size: 30% 40%;
+	float: right;
+	position: fixed;
+}
+
+#dodaj{
+	cursor: pointer;
+	display: block;
+	margin-left: auto;
+    margin-right: auto;
+	background-image: linear-gradient(fuchsia, purple);
+	color: whitesmoke;
+	font-size: 1.1vw;
+	border-radius: 20px;
+	width: 70%;
+	height: 35px;
+	font-family: Verdana;
+	margin-bottom: 70px;
+}
+
+#dodaj:hover{
+	box-shadow: 0px 0px 15px purple;
+}
+
+#dodaj:active{
+	background-image: linear-gradient(purple, fuchsia);
+}
+
+#dodaj:disabled{
+	opacity: 65%;
+}
+
+#goup{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	background-image: url(../images/up.png);
+	width: 50px;
+	height: 50px;
+	border-style: none;
+	margin-bottom: 8px;
+}
+
+#godown{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	background-image: url(../images/down.png);
+	width: 50px;
+	height: 50px;
+	border-style: none;
+}
+
+#goup:hover{
+	background-image: url(../images/up1.png);
+}
+#godown:hover{
+	background-image: url(../images/down1.png);
+}
+
+#clock
+{
+	float: right;
+    color: black;
+    text-align: center;
+    font-family: Orbitron, sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+#dat
+{
+	position: relative;
+}
+
+#date
+{
+	position: absolute;
+	left: 50%;                   
+    transform: translate(-50%, 0);
+    margin-top: 5%;
+    text-align: center;
+    font-size: 24px;
+    font-family: Century Gothic;
+    font-weight: bold;
+    color: #66FFCC;
+}
+
+#kokpit
+{
+	background-image: url(../images/home.png);
+	background-position: center;
+	background-color: #555555;
+	border: none;
+	width: 35px;
+	height: 35px;
+	margin-right: 10px;
+	cursor: pointer;
+}
+
+#kokpit:hover
+{
+	background-color: #999999;
+	box-shadow: 0px 0px 8px #999999;
+}
+
+#sett
+{
+	float: left;
+}
+
+#settings
+{
+	background-image: url(../images/settings.png);
+	background-position: center;
+	background-color: teal;
+	width: 45px;
+	height: 45px;
+	cursor: pointer;
+	border: none;
+	border-radius: 8px;
+}
+
+#settings:hover
+{
+	box-shadow: 0px 0px 15px black;
+}

@@ -1,0 +1,40 @@
+body
+{
+	background-color: orange;
+}
+
+main
+{
+	background-color: orange; 
+	width: 100%;
+	padding: 40px;
+}
+
+.button
+{
+	height: 50px;
+}
+
+h1
+{
+	text-align: center;
+	font-family: Tahoma;
+	color: white;
+	font-weight: bold;
+}
+
+#date
+{
+	font-family: Century Gothic;
+    font-weight: bold;
+	text-align: center;
+	color: #006600;
+	font-size: 20px;
+}
+
+#clock
+{
+	font-family: Century Gothic;
+    font-weight: bold;
+	text-align: center;
+}

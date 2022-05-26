@@ -1,0 +1,30 @@
+body
+{
+	background-color: orange;
+}
+
+main
+{
+	background-color: orange; 
+	width: 100%;
+	padding-top: 40px;
+}
+
+
+h2
+{
+	text-align: center;
+	color: #333333;
+	font-family: Verdana;
+	font-weight: bold;
+}
+
+.navbar-nav li:hover>.dropdown-menu
+{
+	display: block;
+}
+
+.ksiazki{
+	width:130px;
+	height:200px;
+}

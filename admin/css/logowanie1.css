@@ -1,0 +1,159 @@
+body
+{
+	background-image: linear-gradient(to right, #FF9933, #FF9999);
+}
+
+h1
+{
+	text-align: center;
+	font-family: Courier New;
+	color: #660099;
+}
+
+.images
+{
+	text-align: center;
+}
+
+img
+{
+	width: 45px;
+	height: 45px;
+}
+
+#panel
+{
+	width: 350px;
+	height: 450px;
+	background-color: red;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	padding: 10px;
+	border-radius: 30px;
+	background-color: #444444;
+	border: 6px solid #0066FF;
+	box-shadow: 0px 0px 50px;
+	position: relative;
+}
+
+h2
+{
+	color: white;
+	text-align: center;
+	font-family: Tahoma;
+}
+
+#fields
+{
+	position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+	display: flex;
+	justify-content: center;
+	color: white;
+	width: 238px;
+	padding-top: 50px;
+}
+
+#login
+{
+	margin-bottom: 15px;
+}
+
+#password
+{
+	margin-bottom: 20px;
+}
+
+.log
+{
+	width: 230px;
+	height: 25px;
+	border-radius: 15px;
+	border: 4px;
+	font-weight: bold;
+	background-color: #CCCCCC;
+	color: #006600;
+	text-indent: 8px;
+	border-color: #CCCCCC;
+	border-style: solid;
+}
+
+#enter
+{
+	margin-bottom: 30px;
+}
+
+#log_in
+{
+	width: 230px;
+	height: 40px;
+	border-radius: 20px;
+	cursor: pointer;
+	background-color: #00CC66;
+	color: #CC3399;
+	font-weight: bold;
+	font-size: 14px;
+	box-shadow: 0px 0px 8px white;
+}
+
+.center_elem
+{
+	display: flex;
+	justify-content: center;
+}
+
+#text
+{
+	margin-bottom: 5px;
+	font-family: Helvetica;
+	font-weight: bold;
+}
+
+#info
+{
+	font-size: 12px;
+	margin-bottom: 10px;
+	font-family: Tahoma;
+	color: orange;
+}
+
+#checkbox
+{
+	margin-bottom: 30px;
+	font-family: Helvetica;
+	font-weight: bold;
+	font-size: 13.5px;
+}
+
+::placeholder
+{
+	color: #333333;
+	font-weight: normal;
+}
+
+#log_in:hover
+{
+	font-size: 12pt;
+}
+
+.log:focus
+{
+	
+	border-color: #660099;
+}
+
+#register
+{
+	font-size: 13px;
+	font-family: Helvetica;
+}
+
+#reg
+{
+	color: yellow;
+	letter-spacing: 1.5px;
+}

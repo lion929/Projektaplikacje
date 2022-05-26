@@ -1,0 +1,51 @@
+body
+{
+	background-image: linear-gradient(to right, #FF9933, #FF9999);
+}
+
+h1
+{
+    text-align: center;
+    color: #003399;
+    font-weight: bold;
+}
+
+img
+{
+    width: 45px;
+    height: 45px;
+}
+
+#form
+{
+    border-radius: 30px;
+    border: 6px solid #0066FF;
+    color: white;
+}
+
+#submit
+{
+    color: purple;
+    font-weight: bold;
+    height: 40px;
+}
+
+#submit:hover
+{
+    font-size: 13pt;
+}
+
+#info
+{
+    font-size: 12px;
+}
+
+#reg
+{
+    text-align: center;
+}
+
+#register
+{
+    box-shadow: 0px 0px 10px black;
+}

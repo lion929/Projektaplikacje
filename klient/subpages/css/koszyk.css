@@ -1,0 +1,54 @@
+body
+{
+	background-color: orange;
+}
+
+
+main
+{
+	background-color: orange; 
+	padding-top: 40px;
+}
+
+h2
+{
+	text-align: center;
+	color: #333333;
+	font-family: Verdana;
+	font-weight: bold;
+}
+
+.navbar-nav li:hover>.dropdown-menu
+{
+	display: block;
+}
+
+#div1{
+	float: left;
+}
+
+.ksiazki1{
+	width:70px;
+	height:100px;
+}
+
+tr{
+	text-align: center;
+	font-size: 13pt;
+}
+
+@media screen and (max-width: 1300px)
+{
+	.h2
+	{
+		font-size: 20px;
+	}
+}
+
+@media screen and (max-width: 1000px)
+{
+	.h2
+	{
+		font-size: 15px;
+	}
+}

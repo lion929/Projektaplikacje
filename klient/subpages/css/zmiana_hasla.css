@@ -1,0 +1,42 @@
+body
+{
+	background-color: orange;
+}
+
+main
+{
+	background-color: orange; 
+	width: 100%;
+	padding-top: 40px;
+}
+
+.button
+{
+	height: 50px;
+}
+
+h2
+{
+	text-align: center;
+	color: #333333;
+	font-family: Verdana;
+	font-weight: bold;
+}
+
+div[name="change_data"]
+{
+	background-color: wheat;
+	border-color: wheat;
+}
+
+label
+{
+	color: purple;
+	font-weight: bold;
+}
+
+#h1, #h2
+{
+	color: red;
+	font-weight: bold;
+}

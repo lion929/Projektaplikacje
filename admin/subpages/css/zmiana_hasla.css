@@ -1,0 +1,58 @@
+body
+{
+	background-color: teal;
+}
+
+header
+{
+	background-image: url(../../images/tlo1.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 100% 210px;
+	height: 210px;
+	text-align: center;
+	box-shadow: 0px 0px 8px black;
+}
+
+h1
+{
+	line-height: 210px;
+	font-size: 60px;
+	font-family: Tahoma;
+	font-weight: bold;
+	font-style: italic;
+	color: gold;
+	text-shadow: 0px 0px 20px black;
+}
+
+main
+{
+	background-color: teal;
+	width: 100%;
+	min-height: 457px;
+	padding-top: 20px;
+}
+
+#logout
+{
+	color: #FF9900;
+}
+
+h2
+{
+	text-align: center;
+	color: wheat;
+	font-family: Verdana;
+	font-weight: bold;
+}
+
+.input-group-text
+{
+	background-color: orange;
+	border-color: orange;
+}
+
+label
+{
+	color: white;
+}

@@ -1,0 +1,3 @@
+admin1 | admin1@gmail.com | 1qazXSW@ | $2y$10$7SsPIen8QoxpahLtK83WPeCvzHsFPouLRTkqNoBZ5vbw8G.4cZQpK
+
+admin2 | admin2@gmail.com | zaq1@WSX | $2y$10$oqC/Mx62KhUVXOWqSIRPfusasRShPszPh39Tk5b5EJML79z/d67Gy

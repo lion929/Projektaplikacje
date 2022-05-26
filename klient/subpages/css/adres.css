@@ -1,0 +1,60 @@
+body
+{
+	background-color: orange;
+}
+
+main
+{
+	background-color: orange; 
+	width: 100%;
+	padding-top: 40px;
+}
+
+.button
+{
+	height: 50px;
+}
+
+h2
+{
+	text-align: center;
+	color: #333333;
+	font-family: Verdana;
+	font-weight: bold;
+}
+
+h3
+{
+	text-align: center;
+	color: #333333;
+}
+
+label
+{
+	color: purple;
+	font-weight: bold;
+}
+
+#postcode
+{
+	color: red;
+	font-weight: bold;
+}
+
+#warning
+{
+	font-weight: bold;
+	color: red;
+	display: block;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	font-size: 18px;
+	text-decoration: underline;
+}
+
+#en
+{
+	color: blue;
+	font-family: Arial;
+}

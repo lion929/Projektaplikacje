@@ -1,0 +1,30 @@
+body
+{
+	background-color: teal;
+}
+
+#content
+{
+	background-color: teal;
+	width: 100%;
+	padding-top: 20px;
+}
+
+h2
+{
+	text-align: center;
+	color: gold;
+	font-family: Verdana;
+	font-weight: bold;
+}
+
+.input-group-text
+{
+	background-color: orange;
+	border-color: orange;
+}
+
+label
+{
+	color: white;
+}
