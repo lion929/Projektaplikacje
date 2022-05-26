@@ -1,7 +1,4 @@
-# Projekt zaliczeniowy z przedmiotu: _**Aplikacje internetowe**_
-
 # Temat projektu: Panel administracyjny księgarni internetowej
-## Skład grupy: Kornel Lew, Szymon Mokrzycki
 ## Specyfikacja projektu
 ### Cel projektu : Stworzenie interfesju użytkownika oraz łączenie aplikacji z bazą danych księgarni
 #### Cele szczegółowe:
